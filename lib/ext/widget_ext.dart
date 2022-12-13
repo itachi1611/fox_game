@@ -25,6 +25,10 @@ extension WidgetExtension on Widget {
     );
   }
 
+  Widget flexible({required int flex}) {
+    return Flexible(flex: flex, child: this);
+  }
+
   Widget get expand => Expanded(child: this);
 
   Widget get center => Center(child: this);

@@ -40,29 +40,32 @@ This repository requires [Flutter](https://flutter.dev/docs/get-started/install)
 
 This repository makes use of the following pub packages:
 
-| Package                                                              | Version  | Usage                                                |
-|----------------------------------------------------------------------|----------|------------------------------------------------------|
-| [Intl](https://pub.dev/packages/intl)                                | ^0.17.0  | Multi language*                                      |
-| [Intl Utils](https://pub.dev/packages/intl_utils)                    | ^2.8.1   | Multi language utils*                                |
-| [Bloc](https://pub.dev/packages/bloc)                                | ^8.1.0   | State management*                                    |
-| [Flutter Bloc](https://pub.dev/packages/flutter_bloc)                | ^8.1.1   | State management*                                    |
-| [Hydrated Bloc](https://pub.dev/packages/hydrated_bloc)              | ^9.0.0   | Persists Bloc state with Hive                        |
-| [Hive](https://pub.dev/packages/hive)                                | ^2.2.3   | Platform independent storage                         |
-| [Hive Generator](https://pub.dev/packages/hive_generator)            | ^2.0.0   | Platform independent storage support                 |
-| [Shared Preferences](https://pub.dev/packages/shared_preferences)    | ^2.0.15  | Shared preferences storage                           |
-| [Url Launcher](https://pub.dev/packages/url_launcher)                | ^6.1.7   | Open urls in Browser                                 |
-| [Flutter Display Mode](https://pub.dev/packages/flutter_displaymode) | ^0.4.1   | Support high refresh rate displays                   |
-| [Path Provider](https://pub.dev/packages/path_provider)              | ^2.0.11  | Get the save path for Hive                           |
-| [Permission Handler](https://pub.dev/packages/permission_handler)    | ^10.2.0  | Handler app permission                               |
-| [Google Fonts](https://pub.dev/packages/google_fonts)                | ^2.0.5   | Fonts provided by google                             |
-| [Connectivity Plus](https://pub.dev/packages/connectivity_plus)      | ^2.0.5   | Check internet's connection status                   |
-| [Another Flushbar](https://pub.dev/packages/another_flushbar)        | ^1.12.29 | Flushbar                                             |
-| [Animated Snack Bar](https://pub.dev/packages/animated_snack_bar)    | ^0.3.0   | Animated Snack bar                                   |
-| [Equatable](https://pub.dev/packages/equatable)                      | ^3.0.1   | Easily compare custom classes, used for Bloc states* |
-| [Logger](https://pub.dev/packages/logger)                            | ^1.1.0   | Custom logger                                        |
-| [Splash View](https://pub.dev/packages/splash_view)                  | ^2.0.1   | Custom splash screen                                 |
-| [Cupertino Icons](https://pub.dev/packages/cupertino_icons)          | ^2.0.5   | Cupertino icons                                      |
-| [Flutter Lints](https://pub.dev/packages/flutter_lints)              | ^2.0.1   | Stricter linting rules                               |
+| Package                                                               | Version  | Usage                                                |
+|-----------------------------------------------------------------------|----------|------------------------------------------------------|
+| [Intl](https://pub.dev/packages/intl)                                 | ^0.17.0  | Multi language*                                      |
+| [Intl Utils](https://pub.dev/packages/intl_utils)                     | ^2.8.1   | Multi language utils*                                |
+| [Bloc](https://pub.dev/packages/bloc)                                 | ^8.1.0   | State management*                                    |
+| [Flutter Bloc](https://pub.dev/packages/flutter_bloc)                 | ^8.1.1   | State management*                                    |
+| [Hydrated Bloc](https://pub.dev/packages/hydrated_bloc)               | ^9.0.0   | Persists Bloc state with Hive                        |
+| [Hive](https://pub.dev/packages/hive)                                 | ^2.2.3   | Platform independent storage                         |
+| [Hive Generator](https://pub.dev/packages/hive_generator)             | ^2.0.0   | Platform independent storage support                 |
+| [Shared Preferences](https://pub.dev/packages/shared_preferences)     | ^2.0.15  | Shared preferences storage                           |
+| [Url Launcher](https://pub.dev/packages/url_launcher)                 | ^6.1.7   | Open urls in Browser                                 |
+| [Flutter Display Mode](https://pub.dev/packages/flutter_displaymode)  | ^0.4.1   | Support high refresh rate displays                   |
+| [Path Provider](https://pub.dev/packages/path_provider)               | ^2.0.11  | Get the save path for Hive                           |
+| [Permission Handler](https://pub.dev/packages/permission_handler)     | ^10.2.0  | Handler app permission                               |
+| [Google Fonts](https://pub.dev/packages/google_fonts)                 | ^2.0.5   | Fonts provided by google                             |
+| [Connectivity Plus](https://pub.dev/packages/connectivity_plus)       | ^2.0.5   | Check internet's connection status                   |
+| [Another Flushbar](https://pub.dev/packages/another_flushbar)         | ^1.12.29 | Flushbar                                             |
+| [Animated Snack Bar](https://pub.dev/packages/animated_snack_bar)     | ^0.3.0   | Animated Snack bar                                   |
+| [Equatable](https://pub.dev/packages/equatable)                       | ^3.0.1   | Easily compare custom classes, used for Bloc states* |
+| [Logger](https://pub.dev/packages/logger)                             | ^1.1.0   | Custom logger                                        |
+| [Uuid](https://pub.dev/packages/uuid)                                 | ^3.0.7   | Uuid                                                 |
+| [Splash View](https://pub.dev/packages/splash_view)                   | ^2.0.1   | Custom splash screen                                 |
+| [Cupertino Icons](https://pub.dev/packages/cupertino_icons)           | ^2.0.5   | Cupertino icons                                      |
+| [Flutter Lints](https://pub.dev/packages/flutter_lints)               | ^2.0.1   | Stricter linting rules                               |
+| [Hive Generator](https://pub.dev/packages/hive_generator)             | ^2.0.0   | Hive generator tool                                  |
+| [Build Runner](https://pub.dev/packages/build_runner)                 | ^2.3.2   | Build runner tool                                    |
 
 > \* Recommended to keep regardless of your project
 

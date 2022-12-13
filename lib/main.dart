@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
+import 'package:flutter_temp/models/hive_model/user.dart';
 import 'package:flutter_temp/utils/app_logger.dart';
 import 'package:hive/hive.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
@@ -29,6 +30,8 @@ Future<void> main() async {
         ? HydratedStorage.webStorageDirectory
         : tmpDir,
   );
-
+  Hive.init(tmpDir.path.toString());
+  Hive.registerAdapter(UserAdapter());
+  
   runApp(const AppPage());
 }
