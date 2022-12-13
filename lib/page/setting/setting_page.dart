@@ -40,7 +40,7 @@ class _SettingPageState extends State<SettingPage> {
                 inactiveTrackColor: Colors.pink[200],
                 activeColor: Colors.blue,
                 activeTrackColor: Colors.pink[200],
-                value: state.themeMode == ThemeMode.light ? true : false,
+                value: (state.themeMode ?? ThemeMode.system) == ThemeMode.light ? true : false,
                 onChanged: (val) {
                   _appCubit.onChangeSwitch(val);
                 },
