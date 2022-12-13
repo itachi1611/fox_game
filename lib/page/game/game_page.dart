@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../widgets/search_bar_widget.dart';
+
 class GamePage extends StatefulWidget {
   const GamePage({Key? key}) : super(key: key);
 
@@ -10,6 +12,10 @@ class GamePage extends StatefulWidget {
 class _GamePageState extends State<GamePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: const [
+        SearchBarWidget(),
+      ],
+    );
   }
 }
