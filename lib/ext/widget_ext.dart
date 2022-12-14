@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 extension WidgetExtension on Widget {
-  Widget paddingAll({required double padding}) {
+  Widget paddingAll(double padding) {
     return Padding(
       padding: EdgeInsets.all(padding),
       child: this,
@@ -25,6 +25,13 @@ extension WidgetExtension on Widget {
     );
   }
 
+  Widget paddingSym({double? h, double? v}) {
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: h ?? .0, vertical: v ?? .0),
+      child: this,
+    );
+  }
+
   Widget flexible({required int flex}) {
     return Flexible(flex: flex, child: this);
   }
@@ -32,4 +39,8 @@ extension WidgetExtension on Widget {
   Widget get expand => Expanded(child: this);
 
   Widget get center => Center(child: this);
+
+  Widget gesture(VoidCallback onTap) => GestureDetector(onTap: onTap, child: this);
+
+  Widget inkwell(VoidCallback onTap) => InkWell(onTap: onTap, child: this);
 }

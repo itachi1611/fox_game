@@ -12,6 +12,7 @@ import 'package:permission_handler/permission_handler.dart';
 
 import '../../app/app_cubit.dart';
 import '../../utils/app_permission.dart';
+import '../2048/2048_page.dart';
 import '../setting/setting_page.dart';
 import 'home_cubit.dart';
 
@@ -107,7 +108,7 @@ class _HomePageState extends State<HomePage> {
               body: PageView(
                 controller: _pageController,
                 children: const [
-                  GamePage(),
+                  TwoZeroFourEightPage(),
                   TrendingPage(),
                   SettingPage(),
                 ],
